@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Titanic Predict</title>
+    <style>
+        body{
+        background-image:url("{% static 'TitanicPredict\images\im2.jpg' %}")
+        }
+    </style>
+</head>
+<body>
+    <div align ='center'>
+        <h1>
+            Preveja se você sobreviveria ao naufrágio do titanic
+        </h1>
+
+        <h2>
+            olá, estamos em março de 1912 e você está prestes a embarcar no maior navio
+            até então construído da história, uhn mas uma mensagem vinda do futuro me diz que algo
+            de bom não vai acontecer, vamos lá clique em começar e veja o que vai aconteçer
+        </h2>
+
+        <form action="predict">
+            <input type="submit" value="vamos começar">
+        </form>
+    </div>
+
+
+
+</body>
+</html>
